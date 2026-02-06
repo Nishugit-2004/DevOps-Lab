@@ -1,13 +1,19 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+// Java program to compute
+// simple interest for given principal
+// amount, time and rate of interest.
+import java.io.*;
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+class GFG {
+    public static void main(String args[])
+    {
+        // We can change values here for
+        // different inputs
+        float P = 1, R = 1, T = 1;
+
+        /* Calculate simple interest */
+        float SI = (P * T * R) / 100;
+        System.out.println("Simple interest = " + SI);
     }
 }
+
+// This code is contributed by Anant Agarwal.
